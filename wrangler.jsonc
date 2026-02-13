@@ -7,5 +7,6 @@
   "name": "umami-script",
   "main": "src/index.ts",
   "compatibility_date": "2025-09-27",
+  "workers_dev": false,
   "placement": { "mode": "smart" },
 }
