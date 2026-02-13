@@ -5,7 +5,7 @@ const app = new Hono<{
 }>()
 
 app
-  .get('/umami.js', () => {
+  .get('*', () => {
     return fetch('https://cloud.umami.is/script.js')
   })
   .onError((err, c) => {
